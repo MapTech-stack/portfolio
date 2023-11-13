@@ -1,3 +1,5 @@
+/*MOBILE FRIST STYLING  */
+
 *,
 ::after,
 ::before {
@@ -522,6 +524,8 @@ page
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 
   background: var(--bg-prussian-blue);
   gap: 30px;
@@ -537,20 +541,24 @@ page
   padding-top: 120px;
 }
 
-.about-img img {
+/* .about-img img {
   width: 100%;
   border-radius: 30px;
   padding: 20px;
   margin-top: 10px;
   overflow: hidden;
-}
+} */
 .about-text p {
+  /* border: solid red; */
+  
   text-align: left;
   margin-left: 10px;
 }
 .title {
   font-size: 2.37rem;
   font-weight: 500;
+  margin-top: 0px;
+
 }
 
 .tab-tiles {
@@ -605,9 +613,9 @@ page
     flex-direction: row;
   }
 
-  .about-img {
+  /* .about-img {
     flex-basis: 35%;
-  }
+  } */
   .about-text {
     flex-basis: 60%;
   }
